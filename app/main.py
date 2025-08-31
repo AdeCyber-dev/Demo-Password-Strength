@@ -1,4 +1,5 @@
-from app.utils import check_password_strength
+from .utils import check_password_strength
+
 
 def main():
     pwd = input("Enter a password: ")
